@@ -25,47 +25,61 @@ public class CustomerMainActivity extends AppCompatActivity {
         bottomNav = findViewById(R.id.bottomNav);
 
         if (savedInstanceState == null) {
-            var transaction = getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragmentContainer, new CustomerMenuFragment());
-            if (false) transaction.addToBackStack(null);
-            transaction.commit();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragmentContainer, new CustomerMenuFragment())
+                    .commit();
+
             bottomNav.setSelectedItemId(R.id.nav_home);
         }
 
         bottomNav.setOnItemSelectedListener(item -> {
-            Fragment current = getSupportFragmentManager().findFragmentById(R.id.fragmentContainer);
+
+            Fragment current = getSupportFragmentManager()
+                    .findFragmentById(R.id.fragmentContainer);
+
             Fragment selected = null;
-            switch(item.getItemId()){
-                case R.id.nav_home:
-                    if (!(current instanceof CustomerMenuFragment)) selected = new CustomerMenuFragment();
-                    break;
-                case R.id.nav_cart:
-                    if (!(current instanceof CustomerCartFragment)) selected = new CustomerCartFragment();
-                    break;
-                case R.id.nav_orders:
-                    if (!(current instanceof CustomerOrdersFragment)) selected = new CustomerOrdersFragment();
-                    break;
-                case R.id.nav_profile:
-                    if (!(current instanceof CustomerProfileFragment)) selected = new CustomerProfileFragment();
-                    break;
+            int itemId = item.getItemId();
+
+            if (itemId == R.id.nav_home) {
+                if (!(current instanceof CustomerMenuFragment))
+                    selected = new CustomerMenuFragment();
+
+            } else if (itemId == R.id.nav_cart) {
+                if (!(current instanceof CustomerCartFragment))
+                    selected = new CustomerCartFragment();
+
+            } else if (itemId == R.id.nav_orders) {
+                if (!(current instanceof CustomerOrdersFragment))
+                    selected = new CustomerOrdersFragment();
+
+            } else if (itemId == R.id.nav_profile) {
+                if (!(current instanceof CustomerProfileFragment))
+                    selected = new CustomerProfileFragment();
             }
-            if (selected != null){
-                var transaction = getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragmentContainer, selected);
-                if (true) transaction.addToBackStack(null);
-                transaction.commit();
+
+            if (selected != null) {
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragmentContainer, selected)
+                        .addToBackStack(null)
+                        .commit();
             }
+
             return true;
         });
 
         getSupportFragmentManager().addOnBackStackChangedListener(() -> {
-            Fragment current = getSupportFragmentManager().findFragmentById(R.id.fragmentContainer);
+            Fragment current = getSupportFragmentManager()
+                    .findFragmentById(R.id.fragmentContainer);
+
             if (current instanceof CustomerMenuFragment) {
                 bottomNav.setSelectedItemId(R.id.nav_home);
+
             } else if (current instanceof CustomerCartFragment) {
                 bottomNav.setSelectedItemId(R.id.nav_cart);
+
             } else if (current instanceof CustomerOrdersFragment) {
                 bottomNav.setSelectedItemId(R.id.nav_orders);
+
             } else if (current instanceof CustomerProfileFragment) {
                 bottomNav.setSelectedItemId(R.id.nav_profile);
             }
