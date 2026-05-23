@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.data.viewModel;
+package com.example.myapplication.data.viewModel;
 
 import android.app.Application;
 

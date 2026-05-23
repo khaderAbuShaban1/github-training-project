@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.data.repository;
+package com.example.myapplication.data.repository;
 
 import android.app.Application;
 

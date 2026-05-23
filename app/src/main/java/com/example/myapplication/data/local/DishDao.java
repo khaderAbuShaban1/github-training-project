@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.data.local;
+package com.example.myapplication.data.local;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.data.model;
+package com.example.myapplication.data.model;
 
 import android.graphics.Bitmap;
 

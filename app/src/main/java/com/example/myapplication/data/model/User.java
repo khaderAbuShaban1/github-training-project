@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.data.model;
+package com.example.myapplication.data.model;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
