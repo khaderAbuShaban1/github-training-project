@@ -13,10 +13,10 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.adapter.DishAdapter;
-import com.nextgen.yallaeatapplication.data.model.Dish;
-import com.nextgen.yallaeatapplication.data.viewModel.AppViewModel;
+import com.example.myapplication.R;
+import com.example.myapplication.adapter.DishAdapter;
+import com.example.myapplication.data.model.Dish;
+import com.example.myapplication.data.viewModel.AppViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

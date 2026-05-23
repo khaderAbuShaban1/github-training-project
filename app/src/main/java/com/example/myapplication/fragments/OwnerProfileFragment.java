@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.activities.AuthActivity;
+import com.example.myapplication.R;
+import com.example.myapplication.activities.AuthActivity;
 
 
 public class OwnerProfileFragment extends Fragment {

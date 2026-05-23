@@ -26,13 +26,13 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.nextgen.yallaeatapplication.MainActivity;
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.adapter.CartAdapter;
-import com.nextgen.yallaeatapplication.data.model.CartItem;
-import com.nextgen.yallaeatapplication.data.model.Dish;
-import com.nextgen.yallaeatapplication.data.model.Order;
-import com.nextgen.yallaeatapplication.data.viewModel.AppViewModel;
+import com.example.myapplication.MainActivity;
+import com.example.myapplication.R;
+import com.example.myapplication.adapter.CartAdapter;
+import com.example.myapplication.data.model.CartItem;
+import com.example.myapplication.data.model.Dish;
+import com.example.myapplication.data.model.Order;
+import com.example.myapplication.data.viewModel.AppViewModel;
 
 import java.util.concurrent.Executors;
 

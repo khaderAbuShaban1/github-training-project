@@ -18,10 +18,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.activities.AuthActivity;
-import com.nextgen.yallaeatapplication.data.model.User;
-import com.nextgen.yallaeatapplication.data.viewModel.AppViewModel;
+import com.example.myapplication.R;
+import com.example.myapplication.activities.AuthActivity;
+import com.example.myapplication.data.model.User;
+import com.example.myapplication.data.viewModel.AppViewModel;
 
 public class CustomerProfileFragment extends Fragment {
 

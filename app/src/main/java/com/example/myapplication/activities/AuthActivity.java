@@ -7,8 +7,8 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.adapter.AuthPagerAdapter;
+import com.example.myapplication.R;
+import com.example.myapplication.adapter.AuthPagerAdapter;
 
 public class AuthActivity extends AppCompatActivity {
 

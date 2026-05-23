@@ -9,11 +9,11 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 
-import com.nextgen.yallaeatapplication.data.model.CartItem;
-import com.nextgen.yallaeatapplication.data.model.Dish;
-import com.nextgen.yallaeatapplication.data.model.Order;
-import com.nextgen.yallaeatapplication.data.model.User;
-import com.nextgen.yallaeatapplication.data.repository.AppRepository;
+import com.example.myapplication.data.model.CartItem;
+import com.example.myapplication.data.model.Dish;
+import com.example.myapplication.data.model.Order;
+import com.example.myapplication.data.model.User;
+import com.example.myapplication.data.repository.AppRepository;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -4,15 +4,15 @@ import android.app.Application;
 
 import androidx.lifecycle.LiveData;
 
-import com.nextgen.yallaeatapplication.data.local.AppDatabase;
-import com.nextgen.yallaeatapplication.data.local.CartDao;
-import com.nextgen.yallaeatapplication.data.local.DishDao;
-import com.nextgen.yallaeatapplication.data.local.OrderDao;
-import com.nextgen.yallaeatapplication.data.local.UserDao;
-import com.nextgen.yallaeatapplication.data.model.CartItem;
-import com.nextgen.yallaeatapplication.data.model.Dish;
-import com.nextgen.yallaeatapplication.data.model.Order;
-import com.nextgen.yallaeatapplication.data.model.User;
+import com.example.myapplication.data.local.AppDatabase;
+import com.example.myapplication.data.local.CartDao;
+import com.example.myapplication.data.local.DishDao;
+import com.example.myapplication.data.local.OrderDao;
+import com.example.myapplication.data.local.UserDao;
+import com.example.myapplication.data.model.CartItem;
+import com.example.myapplication.data.model.Dish;
+import com.example.myapplication.data.model.Order;
+import com.example.myapplication.data.model.User;
 
 import java.util.List;
 

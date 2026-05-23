@@ -8,7 +8,7 @@ import android.os.Looper;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.nextgen.yallaeatapplication.R;
+import com.example.myapplication.R;
 
 public class SplashActivity extends AppCompatActivity {
 

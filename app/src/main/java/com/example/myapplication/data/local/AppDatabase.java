@@ -7,10 +7,10 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 
-import com.nextgen.yallaeatapplication.data.model.CartItem;
-import com.nextgen.yallaeatapplication.data.model.Dish;
-import com.nextgen.yallaeatapplication.data.model.Order;
-import com.nextgen.yallaeatapplication.data.model.User;
+import com.example.myapplication.data.model.CartItem;
+import com.example.myapplication.data.model.Dish;
+import com.example.myapplication.data.model.Order;
+import com.example.myapplication.data.model.User;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

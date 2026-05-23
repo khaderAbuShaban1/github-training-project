@@ -7,7 +7,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.nextgen.yallaeatapplication.data.model.CartItem;
+import com.example.myapplication.data.model.CartItem;
 
 import java.util.List;
 

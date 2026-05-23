@@ -15,10 +15,10 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.data.model.Dish;
-import com.nextgen.yallaeatapplication.data.model.User;
-import com.nextgen.yallaeatapplication.data.viewModel.AppViewModel;
+import com.example.myapplication.R;
+import com.example.myapplication.data.model.Dish;
+import com.example.myapplication.data.model.User;
+import com.example.myapplication.data.viewModel.AppViewModel;
 
 public class DishDetailsFragment extends Fragment {
 

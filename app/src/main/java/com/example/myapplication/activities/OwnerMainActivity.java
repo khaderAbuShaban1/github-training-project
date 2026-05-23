@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.fragments.OwnerMenuFragment;
-import com.nextgen.yallaeatapplication.fragments.OwnerProfileFragment;
+import com.example.myapplication.R;
+import com.example.myapplication.fragments.OwnerMenuFragment;
+import com.example.myapplication.fragments.OwnerProfileFragment;
 
 public class OwnerMainActivity extends AppCompatActivity {
 

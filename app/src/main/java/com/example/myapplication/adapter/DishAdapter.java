@@ -11,8 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.data.model.Dish;
+import com.example.myapplication.R;
+import com.example.myapplication.data.model.Dish;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -7,7 +7,7 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.nextgen.yallaeatapplication.data.model.Dish;
+import com.example.myapplication.data.model.Dish;
 
 import java.util.List;
 

@@ -7,11 +7,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.fragments.CustomerCartFragment;
-import com.nextgen.yallaeatapplication.fragments.CustomerMenuFragment;
-import com.nextgen.yallaeatapplication.fragments.CustomerOrdersFragment;
-import com.nextgen.yallaeatapplication.fragments.CustomerProfileFragment;
+import com.example.myapplication.R;
+import com.example.myapplication.fragments.CustomerCartFragment;
+import com.example.myapplication.fragments.CustomerMenuFragment;
+import com.example.myapplication.fragments.CustomerOrdersFragment;
+import com.example.myapplication.fragments.CustomerProfileFragment;
 
 public class CustomerMainActivity extends AppCompatActivity {
 

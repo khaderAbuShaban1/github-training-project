@@ -11,9 +11,9 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.adapter.OnboardingAdapter;
-import com.nextgen.yallaeatapplication.items.OnboardingItem;
+import com.example.myapplication.R;
+import com.example.myapplication.adapter.OnboardingAdapter;
+import com.example.myapplication.items.OnboardingItem;
 
 import java.util.ArrayList;
 import java.util.List;

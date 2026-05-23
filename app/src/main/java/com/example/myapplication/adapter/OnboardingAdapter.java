@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.nextgen.yallaeatapplication.R;
-import com.nextgen.yallaeatapplication.items.OnboardingItem;
+import com.example.myapplication.R;
+import com.example.myapplication.items.OnboardingItem;
 
 import java.util.List;
 
