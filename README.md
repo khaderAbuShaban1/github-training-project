@@ -38,31 +38,31 @@ YallaEat هو تطبيق موبايل يهدف لتسهيل عملية طلب ا
 ## Screenshots
 
 ### Splash Screen
-![Splash](screenshots/splash.jpg)
+<img src="screenshots/splash.jpg" width="250">
 
 ### Onboarding Screen
-![Onboarding](screenshots/onbording.jpg)
+<img src="screenshots/onbording.jpg" width="250">
 
 ### Login Screen
-![Login](screenshots/login.jpg)
+<img src="screenshots/login.jpg" width="250">
 
 ### Register Screen
-![Register](screenshots/register.jpg)
+<img src="screenshots/register.jpg" width="250">
 
 ### Owner Menu Screen
-![Owner Menu](screenshots/OwnerMenu.jpg)
+<img src="screenshots/OwnerMenu.jpg" width="250">
 
 ### Customer Menu Screen
-![Customer Menu](screenshots/CustomerMenu.jpg)
+<img src="screenshots/CustomerMenu.jpg" width="250">
 
 ### Customer Cart Screen
-![Customer Cart](screenshots/CustomerCart.jpg)
+<img src="screenshots/CustomerCart.jpg" width="250">
 
 ### Customer Order Screen
-![Customer Order](screenshots/CustomerOrder.jpg)
+<img src="screenshots/CustomerOrder.jpg" width="250">
 
 ### Customer Profile Screen
-![Customer Profile](screenshots/CustomerProfile.jpg)
+<img src="screenshots/CustomerProfile.jpg" width="250">
 
 ---
 
