@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.fragments;
+package com.example.myapplication.fragments;
 
 import android.Manifest;
 import android.app.NotificationChannel;

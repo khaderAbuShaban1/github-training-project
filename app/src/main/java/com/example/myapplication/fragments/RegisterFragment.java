@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.fragments;
+package com.example.myapplication.fragments;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

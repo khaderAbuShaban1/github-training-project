@@ -1,4 +1,4 @@
-package com.nextgen.yallaeatapplication.fragments;
+package com.example.myapplication.fragments;
 
 import android.content.Context;
 import android.content.Intent;
