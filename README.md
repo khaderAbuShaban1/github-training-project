@@ -71,7 +71,7 @@ YallaEat هو تطبيق موبايل يهدف لتسهيل عملية طلب ا
 1. قم بتحميل المشروع:
 
 ```bash
-git clone https://github.com/your-username/YallaEat.git
+git clone https://github.com/khaderAbuShaban1/YallaEat.git
 ```
 
 2. افتح المشروع باستخدام Android Studio
